@@ -1,0 +1,191 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "education"}
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "BA",
+                            "value": "BA"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "B.Com",
+                            "value": "B.Com"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "BCA",
+                            "value": "BCA"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "BBA",
+                            "value": "BBA"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "B.Tech",
+                            "value": "B.Tech"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "B.E",
+                            "value": "B.E"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "B.Sc.",
+                            "value": "B.Sc."
+                        },
+                        {
+                            "grouping": "",
+                            "label": "LLB",
+                            "value": "LLB"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "B.Ed.",
+                            "value": "B.Ed."
+                        },
+                        {
+                            "grouping": "",
+                            "label": "Others",
+                            "value": "Others"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    }
+                }
+            },
+            "id": "column_0",
+            "label": "Degree Name",
+            "name": "degreename"
+        },
+        {
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    }
+                }
+            },
+            "id": "column_1",
+            "label": "Do you 7 years experience of dealing with cultural activities, organizing festivals and exhibitions/international relations/personnel, administrative / financial matters etc. in Govt departments / autonomous bodies/ universities/ recognized research institutions/ public undertakings/NGOs",
+            "name": "field79"
+        },
+        {
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    }
+                }
+            },
+            "id": "column_2",
+            "label": "Do you have 3 year\u2019s experience of dealing with cultural activities, organizing festivals and exhibitions/international relations/personnel, administrative / financial matters etc in Govt departments / autonomous bodies/ universities/ recognized research institutions/ public undertakings/NGOs",
+            "name": "field78"
+        },
+        {
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    }
+                }
+            },
+            "id": "column_3",
+            "label": "Do you have 5 year\u2019s experience of dealing with cultural activities, organizing festivals and exhibitions/international relations/personnel, administrative / financial matters etc in Govt departments / autonomous bodies/ universities/ recognized research institutions/ public undertakings/NGOs",
+            "name": "field77"
+        },
+        {
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    }
+                }
+            },
+            "id": "column_4",
+            "label": "Do you have Knowledge of financial/Service rules/Indian history/heritage/culture?",
+            "name": "a2"
+        }
+    ],
+    "filters": [],
+    "id": "list_education",
+    "name": "List - Education and Work Details",
+    "order": "",
+    "orderBy": "",
+    "pageSize": 0,
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}

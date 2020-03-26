@@ -1,0 +1,16 @@
+<appDefinition>
+   <appId>registrationform</appId>
+   <id>registrationform</id>
+   <version>1</version>
+   <name>Registration Form</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+   <license>Qh6AJyD3TLCe7c8CnT5QC8YGkbaal6ir84kzZFD55gaMTMiGkwT/rvOrHglG00N9</license>
+</appDefinition>
