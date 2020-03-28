@@ -1,0 +1,82 @@
+{
+    "categories": [{
+        "className": "org.joget.apps.userview.model.UserviewCategory",
+        "menus": [{
+            "className": "org.joget.apps.userview.lib.HtmlPage",
+            "properties": {
+                "content": "<p><\/p>\n<p><\/p>\n<section class=\"meacontent\" id=\"meacontent\">\n<div class=\"container\">\n<div class=\"field-item even\" property=\"content:encoded\">\n<ul class=\"list-group\" style=\"box-sizing: border-box; margin: 0px 0px 20px; padding-right: 0px; padding-left: 0px; list-style-type: none; color: #333333; font-family: open_sansregular; font-size: 14px;\">\n<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: #dff0d8; border: 1px solid #dddddd; color: #3c763d; border-top-left-radius: 4px; border-top-right-radius: 4px;\"><span>Dear Candidate, You have successfully completed the Basic Registration. Your User ID is\"User ID\" and Password is \"Password\".<br />We have sent you an email and SMS containing your Login Details to the registered email address and mobile number. Please check your email address and SMS for the login credentials. If the email is not found in the inbox please check your Spam/ Junk folders.<\/span><br />\n<h3><b>Kindly login and complete the registration process, without which your registration will be incomplete and your candidature cannot be considered.<\/b><\/h3>\n<\/li>\n<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: #dff0d8; border: 1px solid #dddddd; color: #3c763d; border-top-left-radius: 4px; border-top-right-radius: 4px;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><button type=\"submit\" color=\"red\"><a href=\"http://localhost:8080/jw/web/userview/registrationform/v/_/login\">&nbsp;&nbsp; OK&nbsp;&nbsp;&nbsp;<\/a><\/button><\/b><\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/section>",
+                "customId": "popup",
+                "enableOffline": "",
+                "id": "8CB12A1BE34443B6BD33C7C444FEF782",
+                "label": "Pop UP",
+                "userviewCacheDuration": "20",
+                "userviewCacheScope": ""
+            }
+        }],
+        "properties": {
+            "id": "category-4B963026009545208D20DF59663050B7",
+            "label": "New Category"
+        }
+    }],
+    "className": "org.joget.apps.userview.model.Userview",
+    "properties": {
+        "description": "",
+        "footerMessage": "Powered by Joget",
+        "id": "popup",
+        "logoutText": "Logout",
+        "name": "Pop UP UI",
+        "welcomeMessage": "#date.EEE, d MMM yyyy#"
+    },
+    "setting": {"properties": {
+        "__": "",
+        "hideThisUserviewInAppCenter": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "theme": {
+            "className": "org.joget.plugin.enterprise.XadminTheme",
+            "properties": {
+                "css": "",
+                "disableHelpGuide": "",
+                "disablePush": "",
+                "disablePwa": "",
+                "disabledFineFont": "",
+                "enableResponsiveSwitch": "true",
+                "fav_icon": "",
+                "homeUrl": "",
+                "inbox": "current",
+                "js": "",
+                "loginBackground": "",
+                "loginPageBottom": "",
+                "loginPageTop": "",
+                "logo": "",
+                "profile": "",
+                "removeAssignmentTitle": "",
+                "reopenTab": "",
+                "shortcut": [],
+                "shortcutLinkLabel": "Shortcut",
+                "urlsToCache": "",
+                "userImage": "",
+                "userMenu": [],
+                "xbackground": "#F2F1F2",
+                "xbuttonBackground": "#1A237E",
+                "xbuttonColor": "#FFFFFF",
+                "xfontColor": "#666666",
+                "xfooterBackground": "#F2F1F2",
+                "xfooterColor": "#666666",
+                "xheaderColor": "#000051",
+                "xlinkActiveColor": "#0069C0",
+                "xlinkColor": "#2196F3",
+                "xnavActiveLinkBackground": "#1A237E",
+                "xnavActiveLinkColor": "#FFFFFF",
+                "xnavBackground": "#EEEEEE",
+                "xnavLinkBackground": "#EEEEEE",
+                "xnavLinkColor": "#333333",
+                "xprimaryColor": "#534BAE"
+            }
+        },
+        "userviewDescription": "",
+        "userview_thumbnail": ""
+    }}
+}

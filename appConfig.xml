@@ -1,0 +1,41 @@
+<appDefinition>
+   <appId>registrationform</appId>
+   <id>registrationform</id>
+   <version>1</version>
+   <name>Registration Form</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList>
+      <environmentVariable>
+         <id>email</id>
+         <appId>registrationform</appId>
+         <appVersion>1</appVersion>
+         <value>rushiharal@gmail.com</value>
+      </environmentVariable>
+      <environmentVariable>
+         <id>mobileno</id>
+         <appId>registrationform</appId>
+         <appVersion>1</appVersion>
+         <value>9172327254</value>
+      </environmentVariable>
+      <environmentVariable>
+         <id>nationality</id>
+         <appId>registrationform</appId>
+         <appVersion>1</appVersion>
+         <value>Indian </value>
+      </environmentVariable>
+      <environmentVariable>
+         <id>var</id>
+         <appId>registrationform</appId>
+         <appVersion>1</appVersion>
+         <value>Rushikesh Digambar Haral</value>
+      </environmentVariable>
+   </environmentVariableList>
+   <messageList/>
+   <resourceList/>
+   <license>Qh6AJyD3TLCe7c8CnT5QC8YGkbaal6ir84kzZFD55gaMTMiGkwT/rvOrHglG00N9</license>
+</appDefinition>

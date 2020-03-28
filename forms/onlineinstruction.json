@@ -1,0 +1,83 @@
+{
+    "className": "org.joget.apps.form.model.Form",
+    "elements": [{
+        "className": "org.joget.apps.form.model.Section",
+        "elements": [{
+            "className": "org.joget.apps.form.model.Column",
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field1",
+                        "label": "",
+                        "value": "<!doctype html>\n\n<html>\n<head>\n\n\n\n\t\t<style type=\"text/css\">\n.hd{\n\ttext-align: center; border-bottom: 1px solid rgb(206, 206, 206); padding-bottom: 14px; margin-bottom: 20px;\n}\nul#menu li a {\n    color:#696969;\n    display:block;\n    font-weight:bold;\n    line-height:2.8;\n    text-decoration:none;\n    width:100%;\n}\n<\/style>\n\n<section class=\"meacontent\" id=\"meacontent\">\n\t<div  class=\"container\">\n\t<h2 class=\"hd\">INSTRUCTIONS TO CANDIDATES FOR FILLING THE APPLICATION FORM<\/h2>\n\t<div class=\"field-item even\" property=\"content:encoded\">\n\t<ul class=\"list-group\" style=\"box-sizing: border-box; margin: 0px 0px 20px; padding-right: 0px; padding-left: 0px; list-style-type: none; color: rgb(51, 51, 51); font-family: open_sansregular; font-size: 14px;\">\n\t<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: rgb(223, 240, 216); border: 1px solid rgb(221, 221, 221); color: rgb(60, 118, 61); border-top-left-radius: 4px; border-top-right-radius: 4px;\">\n\t\tAll entries (except the signature) in the application should be filled in correctly.<\/li>\n\t<li class=\"list-group-item list-group-item-warning\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px; display: block; position: relative; background-color: rgb(252, 248, 227); border: 1px solid rgb(221, 221, 221); color: rgb(138, 109, 59); border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;\">\n\t\tApplication should be complete in all respects, with all the required information and all necessary supporting documents, as listed below:\n\t\t<ul class=\"list-group\" style=\"box-sizing: border-box; margin: 0px 0px 20px; padding-right: 0px; padding-left: 0px; list-style-type: none;\">\n\t\t\t<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: rgb(223, 240, 216); border: 1px solid rgb(221, 221, 221); color: rgb(60, 118, 61); border-top-left-radius: 4px; border-top-right-radius: 4px;\">\n\t\t\t\tA recent passport size photograph not more than 3.5x4.5cm (25kb) should be uploaded on the application form in the space provided.The photograph should be with white background and without spectacles.<\/li>\n\t\t\t<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: rgb(223, 240, 216); border: 1px solid rgb(221, 221, 221); color: rgb(60, 118, 61);\">\n\t\t\t\tCopies of all academic qualifications, certificates and marksheet, including those relating to school leaving examination must be uploaded.<\/li>\n\t\t\t<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: rgb(223, 240, 216); border: 1px solid rgb(221, 221, 221); color: rgb(60, 118, 61);\">\n\t\t\t\tA certificate of physical fitness in the prescribed form.<\/li>\n\t\t\t<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: rgb(223, 240, 216); border: 1px solid rgb(221, 221, 221); color: rgb(60, 118, 61);\">\n\t\t\t\tRecommendations / character certificates from existing school/University etc<\/li>\n\t\t\t<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: rgb(223, 240, 216); border: 1px solid rgb(221, 221, 221); color: rgb(60, 118, 61);\">\n\t\t\t\tCertified copies of relevant pages of candidate&rsquo;s valid passport showing photograph, name, contact details, date of issue, date of expiry and place of issue. Please ensure that your passport is valid for the duration of the course for which you have applied.<\/li>\n\t\t\t<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: rgb(223, 240, 216); border: 1px solid rgb(221, 221, 221); color: rgb(60, 118, 61);\">\n\t\t\t\tAt the time of uploading the required documents kindly ensure that all documents uploaded correctly in the given module e.g. module for educational certificates should only be uploaded with the educational certificates only not other documents such as passport copies or photographs etc.<\/li>\n\t\t\t<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: rgb(223, 240, 216); border: 1px solid rgb(221, 221, 221); color: rgb(60, 118, 61);\">\n\t\t\t\tOriginal Certificates/ documents must be carried by the Applicant if admitted for verification by the concerned University/ Institute at the time of joining. This mandatory requirement otherwise admission can be cancelled by the University/ Institute and the ICCR will not be responsible for this.<\/li>\n\t\t\t<li class=\"list-group-item list-group-item-success\" style=\"box-sizing: border-box; padding: 10px 15px; margin: 0px 0px -1px; display: block; position: relative; background-color: rgb(223, 240, 216); border: 1px solid rgb(221, 221, 221); color: rgb(60, 118, 61);\">\n\t\t\t\tIn case of Engineering courses, you must have Physics, Chemistry &amp; Mathematics (PCM) in your school leaving examinations as this is mandatory for Engineering courses.<\/li>\n\t\t\t\n\t\t <\/ul>\n\t\t\n\t <\/li>\n    <\/ul>\n                 <p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(51, 51, 51); font-family: open_sansregular; font-size: 14px;\">\n                      \t<span style=\"box-sizing: border-box; font-weight: 700;\">Note:<\/span>&nbsp;Ensure that certified copies of documents showing specific qualifications required for the course of your choice (such as GMAT scores for admission in MBA, TOEFL/IELTS scores for English courses etc.) are also attached. The requirements can be checked from the UGC/Institute/University website.<\/p>\n                       <h4 color:=\"\" font-size:=\"\" font-weight:=\"\" line-height:=\"\" margin-bottom:=\"\" margin-top:=\"\" sans=\"\" source=\"\" style=\"box-sizing: border-box; font-family: \">\n\t                  (ORIGINAL CERTIFICATES/DOCUMENTS MUST BE CARRIED BY THE APPLICANT IF ADMITTED, FOR VERIFICATION BY THE UNIVERSITY/INSTITUTE.)<\/h4>\n             <p style=\"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(51, 51, 51); font-family: open_sansregular; font-size: 14px;\">\n\t            &nbsp;<\/p>\n               <h4 color:=\"\" font-size:=\"\" font-weight:=\"\" line-height:=\"\" margin-bottom:=\"\" margin-top:=\"\" sans=\"\" source=\"\" style=\"box-sizing: border-box; font-family: \">\n             \tPLEASE CHECK THAT ALL COLUMNS / MODULES ARE PROPERLY FILLED UP BEFORE SUBMISSION OF THE APPLICANT FOR ONWARD PROCESSING AS ANY INCOMPLETE APPLICATION WILL NOT BE PROCESSED FOR ADMISSION.<\/h4>\n       \t<\/div>\n\t<\/div>\n<\/section>\n<div class=\"clearfix\"> <\/div>\n\t\n<\/body>\n<\/html>"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "field2",
+                        "label": "I AGREE ALL TERMS AND CONDITIONS",
+                        "options": [{
+                            "grouping": "",
+                            "label": "Yes",
+                            "value": "Yes"
+                        }],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                }
+            ],
+            "properties": {"width": "100%"}
+        }],
+        "properties": {
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "label": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
+        }
+    }],
+    "properties": {
+        "description": "",
+        "id": "onlineinstruction",
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Online Instruction",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "instruction"
+    }
+}

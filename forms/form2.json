@@ -1,0 +1,2107 @@
+{
+    "className": "org.joget.apps.form.model.Form",
+    "elements": [
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "title",
+                            "label": "Title",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Mr.",
+                                    "value": "Mr."
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Ms.",
+                                    "value": "Ms."
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Mrs.",
+                                    "value": "Mrs."
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Dr.",
+                                    "value": "Dr."
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Mx.",
+                                    "value": "Mx."
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "candidate",
+                            "label": "Candidate's Name",
+                            "maxlength": "50",
+                            "permissionHidden": "",
+                            "placeholder": "",
+                            "readonly": "true",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "#envVariable.var#",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "title",
+                            "id": "gender",
+                            "label": "Gender",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "Mr.",
+                                    "label": "Male",
+                                    "value": "Male"
+                                },
+                                {
+                                    "grouping": "Dr.",
+                                    "label": "Female",
+                                    "value": "Female"
+                                },
+                                {
+                                    "grouping": "Dr.",
+                                    "label": "Transgender",
+                                    "value": "Transgender"
+                                },
+                                {
+                                    "grouping": "Dr.",
+                                    "label": "Male",
+                                    "value": "Male"
+                                },
+                                {
+                                    "grouping": "Mx.",
+                                    "label": "Transgender",
+                                    "value": "Transgender"
+                                },
+                                {
+                                    "grouping": "Ms.",
+                                    "label": "Female",
+                                    "value": "Female"
+                                },
+                                {
+                                    "grouping": "Mrs.",
+                                    "label": "Female",
+                                    "value": "Female"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "category",
+                            "label": "Category",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "General",
+                                    "value": "General"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "EWS",
+                                    "value": "EWS"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "OBC",
+                                    "value": "OBC"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "SC",
+                                    "value": "SC"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "ST",
+                                    "value": "ST"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "dd-mm-yy",
+                            "id": "dob",
+                            "label": "DateofBirth",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "1964:2001"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "true",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "dd-mm-yy",
+                            "id": "field74",
+                            "label": "Age as On 01-03-2020",
+                            "permissionHidden": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "2020-03-01",
+                            "workflowVariable": "",
+                            "yearRange": "c-10:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field75",
+                            "label": "",
+                            "value": "<script language=\"JavaScript\" type=\"text/javascript\">\n$('input[name=\"field74\"], input[name=\"dob\"]').change( function()\n{\nd1 = $('input[name=\"dob\"]').datepicker('getDate');\nd2 = $('input[name=\"field74\"]').datepicker('getDate');\nfunction calcDate(d1,d2) {\nvar diff = Math.floor(d2.getTime() - d1.getTime());\n\nvar years = Math.floor(diff/31536000000);\nvar months= Math.floor((diff%31536000000)/2628000000);\nvar days = Math.floor(((diff%31536000000)%2628000000)/86400000);\n var msg  = years + \" years \";\n     msg += months + \" months \";\n     msg += days + \" days \" ;\n\nreturn msg\n}\na = calcDate(d1,d2)\n$('input[name=days]').val(a);\n});\n<\/script>\n"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "days",
+                            "label": "Applicant's age",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field44",
+                            "label": "",
+                            "value": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "nationality",
+                            "label": "Nationality",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "#envVariable.nationality#",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "mobileno",
+                            "label": "Mobile No",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "#envVariable.mobileno#",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "email",
+                            "label": "Email ID",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "#envVariable.email#",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "father",
+                            "label": "Father's Name",
+                            "maxlength": "50",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "custom-regex": "[a-zA-Z][a-zA-Z ]+",
+                                    "custom-regex-casesensitive": "",
+                                    "mandatory": "true",
+                                    "message": "Wrong input",
+                                    "type": "custom"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "mother",
+                            "label": "Mother\u2019s Name",
+                            "maxlength": "50",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "custom-regex": "[a-zA-Z][a-zA-Z ]+",
+                                    "custom-regex-casesensitive": "",
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "custom"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "addressline1",
+                            "label": "Permanent Address Line 1",
+                            "maxlength": "50",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "custom-regex": "[.,/\\&-a-zA-Z0-9\\s]+",
+                                    "custom-regex-casesensitive": "",
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "custom"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "addressline2",
+                            "label": "Permanent Address Line 2",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "custom-regex": "[.,/\\&-a-zA-Z0-9\\s]+",
+                                    "custom-regex-casesensitive": "",
+                                    "mandatory": "",
+                                    "message": "",
+                                    "type": "custom"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "adresscity",
+                            "label": "Permanent Address \u2013 City",
+                            "maxlength": "50",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "custom-regex": "[.,/\\&-a-zA-Z0-9\\s]+",
+                                    "custom-regex-casesensitive": "",
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "custom"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "state",
+                            "label": "Permanent Address \u2013 State / Union Territory",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Andhra Pradesh",
+                                    "value": "Andhra Pradesh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Arunachal Pradesh",
+                                    "value": "Arunachal Pradesh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Assam",
+                                    "value": "Assam"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Bihar",
+                                    "value": "Bihar"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Chhattisgarh",
+                                    "value": "Chhattisgarh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Goa",
+                                    "value": "Goa"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Gujarat",
+                                    "value": "Gujarat"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Haryana",
+                                    "value": "Haryana"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Himachal Pradesh",
+                                    "value": "Himachal Pradesh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Jharkhand",
+                                    "value": "Jharkhand"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Karnataka",
+                                    "value": "Karnataka"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Kerala",
+                                    "value": "Kerala"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Madhya Pradesh",
+                                    "value": "Madhya Pradesh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Maharashtra",
+                                    "value": "Maharashtra"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Manipur",
+                                    "value": "Manipur"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Meghalaya",
+                                    "value": "Meghalaya"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Mizoram",
+                                    "value": "Mizoram"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Nagaland",
+                                    "value": "Nagaland"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Odisha",
+                                    "value": "Odisha"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Punjab",
+                                    "value": "Punjab"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Rajasthan",
+                                    "value": "Rajasthan"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Sikkim",
+                                    "value": "Sikkim"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Tamil Nadu",
+                                    "value": "Tamil Nadu"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Telangana",
+                                    "value": "Telangana"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Tripura",
+                                    "value": "Tripura"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Uttar Pradesh",
+                                    "value": "Uttar Pradesh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Uttarakhand",
+                                    "value": "Uttarakhand"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "West Bengal",
+                                    "value": "West Bengal"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Andaman and Nicobar Islands",
+                                    "value": "Andaman and Nicobar Islands"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Chandigarh",
+                                    "value": "Chandigarh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Dadra and Nagar Haveli and Daman and Diu",
+                                    "value": "Dadra and Nagar Haveli and Daman and Diu"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Delhi",
+                                    "value": "Delhi"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Jammu and Kashmir",
+                                    "value": "Jammu and Kashmir"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Ladakh",
+                                    "value": "Ladakh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Lakshadweep",
+                                    "value": "Lakshadweep"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Puducherry",
+                                    "value": "Puducherry"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "pincode",
+                            "label": "Permanent Address \u2013 Pincode",
+                            "maxlength": "6",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "numeric"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "caddress",
+                            "label": "Correspondence Address same as Permanent Address",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Yes",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "No",
+                                    "value": "No"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field44",
+                            "label": "",
+                            "value": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "disability",
+                            "label": "Are you a Person with at least 40% Disability?",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Yes",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "No",
+                                    "value": "No"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field44",
+                            "label": "",
+                            "value": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "ex",
+                            "label": "Are you an Ex-serviceman?",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Yes",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "No",
+                                    "value": "No"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field44",
+                            "label": "",
+                            "value": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "gs",
+                            "label": "Are you into Govt. Service or Currently Working with ICCR?",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Yes",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "No",
+                                    "value": "No"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field44",
+                            "label": "",
+                            "value": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "field19",
+                            "label": "Are you a Person who had ordinarily been domiciled erstwhile in the State of Jammu and Kashmir during the period 01.01.1980 to 31.12.1989",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Yes",
+                                    "value": "Yes"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "No",
+                                    "value": "No"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "personal",
+                "join": "",
+                "label": "Personal Details",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "category",
+                            "label": "Category Certificate No.",
+                            "maxlength": "25",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "dd-mm-yy",
+                            "id": "categorydate",
+                            "label": "Category Certificate Issue Date",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "1970:c+20"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field72",
+                            "label": "",
+                            "value": "<p>Category Certificate Issue Date  Should be greater than Date of Birth<\/p>"
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section2",
+                "join": "or;or;or;or",
+                "label": "Category Details",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": ";;;",
+                "reverse": ";;;",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "category;category;category;category",
+                "visibilityValue": "EWS;OBC;SC;ST"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "disabilitycategory",
+                            "label": "Disability Category",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Blindness and low vision (VH)",
+                                    "value": "Blindness and low vision (VH)"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Deaf and hard of hearing (HH)",
+                                    "value": "Deaf and hard of hearing (HH)"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Locomotor disability including cerebral   palsy, leprosy cured, dwarfism, acid attack  victims and muscular dystrophy (OH)",
+                                    "value": "Locomotor disability including cerebral   palsy, leprosy cured, dwarfism, acid attack  victims and muscular dystrophy (OH)"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Autism,  intellectual  disability,  specific  learning disability and mental illness (Others)",
+                                    "value": "Autism,  intellectual  disability,  specific  learning disability and mental illness (Others)"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Multiple  disabilities  from  amongst  persons  under clauses (a) to (d) including deaf-blindness (Others)",
+                                    "value": "Multiple  disabilities  from  amongst  persons  under clauses (a) to (d) including deaf-blindness (Others)"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "pod",
+                            "label": "Percentage of Disability",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "dc",
+                            "label": "Disability Certificate No.",
+                            "maxlength": "25",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "dd-mm-yy",
+                            "id": "dcd",
+                            "label": "Disability Certificate Issue Date",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "1970/01/02:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field73",
+                            "label": "",
+                            "value": "<p>Disability Certificate Issue Date Should be greater than Date of Birth<\/p>"
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section4",
+                "join": "",
+                "label": "Disability Details",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "disability",
+                "visibilityValue": "Yes"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "dd-mm-yy",
+                            "id": "esmdate",
+                            "label": "ESM - Date of Enlistment",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "field44",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "c-10:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field49",
+                            "label": "",
+                            "value": "The Date of Enlistment should be 14 years greater than Date of Birth."
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "",
+                            "format": "dd-mm-yy",
+                            "id": "esmdatedis",
+                            "label": "ESM - Date of Discharge",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": "",
+                            "yearRange": "c-10:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field49",
+                            "label": "",
+                            "value": "The Date of Discharge should be greater than Date of Enlistment"
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section6",
+                "join": "",
+                "label": "EX-Serviceman Section",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "ex",
+                "visibilityValue": "Yes"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "defence",
+                        "label": "Defence Personnel disabled in operation during hostalities with any foreign country or in a disturbed area and released as a consequence thereof",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Yes",
+                                "value": "Yes"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "No",
+                                "value": "No"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section7",
+                "join": "",
+                "label": "For Defence Personal",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "ex",
+                "visibilityValue": "No"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "divored",
+                        "label": "Are you a Widows/   Divorced   Women/   Women   judicially separated and who are not remarried?",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Yes",
+                                "value": "Yes"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "No",
+                                "value": "No"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section9",
+                "join": "",
+                "label": "For Widow/Divored Womens",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "gender",
+                "visibilityValue": "Female"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "caddressline1",
+                            "label": "Correspondence Address - Address Line 1",
+                            "maxlength": "50",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "custom-regex": "[.,/\\&-a-zA-Z0-9\\s]+",
+                                    "custom-regex-casesensitive": "",
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "custom"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "caddressline2",
+                            "label": "Correspondence Address - Address Line 2",
+                            "maxlength": "50",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "custom-regex": "[.,/\\&-a-zA-Z0-9\\s]+",
+                                    "custom-regex-casesensitive": "",
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "custom"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "caddresscity",
+                            "label": "Correspondence Address \u2013 City",
+                            "maxlength": "50",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "custom-regex": "[.,/\\&-a-zA-Z0-9\\s]+",
+                                    "custom-regex-casesensitive": "",
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "custom"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "cstate",
+                            "label": "Correspondence Address \u2013 State / Union Territory",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Andhra Pradesh",
+                                    "value": "Andhra Pradesh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Arunachal Pradesh",
+                                    "value": "Arunachal Pradesh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Assam",
+                                    "value": "Assam"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Bihar",
+                                    "value": "Bihar"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Chhattisgarh",
+                                    "value": "Chhattisgarh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Goa",
+                                    "value": "Goa"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Gujarat",
+                                    "value": "Gujarat"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Haryana",
+                                    "value": "Haryana"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Himachal Pradesh",
+                                    "value": "Himachal Pradesh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Jharkhand",
+                                    "value": "Jharkhand"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Karnataka",
+                                    "value": "Karnataka"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Kerala",
+                                    "value": "Kerala"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Madhya Pradesh",
+                                    "value": "Madhya Pradesh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Maharashtra",
+                                    "value": "Maharashtra"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Manipur",
+                                    "value": "Manipur"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Meghalaya",
+                                    "value": "Meghalaya"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Mizoram",
+                                    "value": "Mizoram"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Nagaland",
+                                    "value": "Nagaland"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Odisha",
+                                    "value": "Odisha"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Punjab",
+                                    "value": "Punjab"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Rajasthan",
+                                    "value": "Rajasthan"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Sikkim",
+                                    "value": "Sikkim"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Tamil Nadu",
+                                    "value": "Tamil Nadu"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Telangana",
+                                    "value": "Telangana"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Tripura",
+                                    "value": "Tripura"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Uttar Pradesh",
+                                    "value": "Uttar Pradesh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Uttarakhand",
+                                    "value": "Uttarakhand"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "West Bengal",
+                                    "value": "West Bengal"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Andaman and Nicobar Islands",
+                                    "value": "Andaman and Nicobar Islands"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Chandigarh",
+                                    "value": "Chandigarh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Dadra and Nagar Haveli and Daman and Diu",
+                                    "value": "Dadra and Nagar Haveli and Daman and Diu"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Delhi",
+                                    "value": "Delhi"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Jammu and Kashmir",
+                                    "value": "Jammu and Kashmir"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Ladakh",
+                                    "value": "Ladakh"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Lakshadweep",
+                                    "value": "Lakshadweep"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Puducherry",
+                                    "value": "Puducherry"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "encryption": "",
+                            "id": "cpincode",
+                            "label": "Correspondence Address \u2013 Pincode",
+                            "maxlength": "6",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": "numeric"
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section11",
+                "join": "",
+                "label": "Correspondance Details",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "caddress",
+                "visibilityValue": "No"
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "pcity1",
+                            "label": "Preferred Test City -1",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Mumbai",
+                                    "value": "Mumbai"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Delhi",
+                                    "value": "Delhi"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Banglore",
+                                    "value": "Banglore"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Pune",
+                                    "value": "Pune"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Kolkata",
+                                    "value": "Kolkata"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "pcity1",
+                            "id": "pcity2",
+                            "label": "Preferred Test City -2",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "Mumbai",
+                                    "label": "Delhi",
+                                    "value": "Delhi"
+                                },
+                                {
+                                    "grouping": "Mumbai",
+                                    "label": "Banglore",
+                                    "value": "Banglore"
+                                },
+                                {
+                                    "grouping": "Mumbai",
+                                    "label": "Pune",
+                                    "value": "Pune"
+                                },
+                                {
+                                    "grouping": "Mumbai",
+                                    "label": "Kolkata",
+                                    "value": "Kolkata"
+                                },
+                                {
+                                    "grouping": "Pune",
+                                    "label": "Mumbai",
+                                    "value": "Mumbai"
+                                },
+                                {
+                                    "grouping": "Pune",
+                                    "label": "Banglore",
+                                    "value": "Banglore"
+                                },
+                                {
+                                    "grouping": "Pune",
+                                    "label": "Delhi",
+                                    "value": "Delhi"
+                                },
+                                {
+                                    "grouping": "Pune",
+                                    "label": "Kolkata",
+                                    "value": "Kolkata"
+                                },
+                                {
+                                    "grouping": "Delhi",
+                                    "label": "Mumbai",
+                                    "value": "Mumbai"
+                                },
+                                {
+                                    "grouping": "Delhi",
+                                    "label": "Banglore",
+                                    "value": "Banglore"
+                                },
+                                {
+                                    "grouping": "Delhi",
+                                    "label": "Pune",
+                                    "value": "Pune"
+                                },
+                                {
+                                    "grouping": "Delhi",
+                                    "label": "Kolkata",
+                                    "value": "Kolkata"
+                                },
+                                {
+                                    "grouping": "Banglore",
+                                    "label": "Mumbai",
+                                    "value": "Mumbai"
+                                },
+                                {
+                                    "grouping": "Banglore",
+                                    "label": "Pune",
+                                    "value": "Pune"
+                                },
+                                {
+                                    "grouping": "Banglore",
+                                    "label": "Kolkata",
+                                    "value": "Kolkata"
+                                },
+                                {
+                                    "grouping": "Banglore",
+                                    "label": "Delhi",
+                                    "value": "Delhi"
+                                },
+                                {
+                                    "grouping": "Kolkata",
+                                    "label": "Mumbai",
+                                    "value": "Mumbai"
+                                },
+                                {
+                                    "grouping": "Kolkata",
+                                    "label": "Pune",
+                                    "value": "Pune"
+                                },
+                                {
+                                    "grouping": "Kolkata",
+                                    "label": "Banglore",
+                                    "value": "Banglore"
+                                },
+                                {
+                                    "grouping": "Kolkata",
+                                    "label": "Delhi",
+                                    "value": "Delhi"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "pcity2",
+                            "id": "pcity3",
+                            "label": "Preferred Test City -3",
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "grouping": "Mumbai",
+                                    "label": "Delhi",
+                                    "value": "Delhi"
+                                },
+                                {
+                                    "grouping": "Mumbai",
+                                    "label": "Kolkata",
+                                    "value": "Kolkata"
+                                },
+                                {
+                                    "grouping": "Mumbai",
+                                    "label": "Banglore",
+                                    "value": "Banglore"
+                                },
+                                {
+                                    "grouping": "Delhi",
+                                    "label": "Pune",
+                                    "value": "Pune"
+                                },
+                                {
+                                    "grouping": "Delhi",
+                                    "label": "Kolkata",
+                                    "value": "Kolkata"
+                                },
+                                {
+                                    "grouping": "Delhi",
+                                    "label": "Banglore",
+                                    "value": "Banglore"
+                                },
+                                {
+                                    "grouping": "Kolkata",
+                                    "label": "Banglore",
+                                    "value": "Banglore"
+                                },
+                                {
+                                    "grouping": "Kolkata",
+                                    "label": "Pune",
+                                    "value": "Pune"
+                                },
+                                {
+                                    "grouping": "Kolkata",
+                                    "label": "Delhi",
+                                    "value": "Delhi"
+                                },
+                                {
+                                    "grouping": "Banglore",
+                                    "label": "Pune",
+                                    "value": "Pune"
+                                },
+                                {
+                                    "grouping": "Banglore",
+                                    "label": "Kolkata",
+                                    "value": "Kolkata"
+                                },
+                                {
+                                    "grouping": "Banglore",
+                                    "label": "Mumbai",
+                                    "value": "Mumbai"
+                                },
+                                {
+                                    "grouping": "Pune",
+                                    "label": "Mumbai",
+                                    "value": "Mumbai"
+                                },
+                                {
+                                    "grouping": "Pune",
+                                    "label": "Kolkata",
+                                    "value": "Kolkata"
+                                },
+                                {
+                                    "grouping": "Pune",
+                                    "label": "Banglore",
+                                    "value": "Banglore"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section12",
+                "join": "",
+                "label": "Exam city",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        }
+    ],
+    "properties": {
+        "description": "",
+        "id": "form2",
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "name": "Personal Details",
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "tableName": "basic_form"
+    }
+}
